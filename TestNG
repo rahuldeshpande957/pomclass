@@ -1,0 +1,27 @@
+
+public class Test1 {
+	
+	@Test
+	
+	public void TC1() {
+	      Reporter.log("Test NG 1",true);
+	}
+	
+	@Test
+	public void TC2() {
+		Reporter.log("Test NG 2",true);
+		
+	}
+	
+	@Test
+	public void TC3() {
+		Reporter.log("Test NG 3",true);
+		
+	}
+	
+	@Test
+	public void TC4() {
+		Reporter.log("Test NG 4",true);
+		
+	}
+	
