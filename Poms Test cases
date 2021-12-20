@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver",Pathconfig.driverpath);
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.facebook.com/login/");
+		driver.manage().window().maximize();
+		
+		Pom_LogIN  pom = new Pom_LogIN(driver);
+		pom.setUsername("rahul");
+		pom.setpassword("123456");
