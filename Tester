@@ -1,0 +1,14 @@
+RAHUL@RAHUL-PC MINGW64 /d/Desktop/GITHUB/pomclass (rahul)
+$ git push --set-upstream origin rahul
+fatal: An error occurred while sending the request.
+fatal: The request was aborted: Could not create SSL/TLS secure channel.
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/rahuldeshpande957/pomclass.git/'
+
+RAHUL@RAHUL-PC MINGW64 /d/Desktop/GITHUB/pomclass (rahul)
+$ git push
+fatal: The current branch rahul has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin rahul
